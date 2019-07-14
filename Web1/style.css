@@ -1,0 +1,73 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#main {
+    width: 1280px;
+    height: 800px;
+    margin: auto;
+}
+
+.left {
+    width: 830px;
+    height: 800px;
+    background-color: #FFEDF7;
+    float: left;
+}
+
+.right {
+    width: 450px;
+    height: 800px;
+    background-color: #003164;
+    float: right;
+}
+
+.textbox {
+    width: 445px;
+    height: 56px;
+    margin-top: 48px;
+    margin-left: 85px;
+    border: 0px;
+    font-size: 16px;
+    font: Roboto;
+}
+
+.first {
+    position: absolute;
+    top: 249px;
+    margin-left: 85px;
+}
+
+.timer {
+    position: absolute;
+    top: 297px;
+    margin-left: 85px;
+}
+
+.todo {
+    position: absolute;
+    top: 610px;
+    margin-left: 85px;
+}
+.firstThing{
+    display: inline-block;
+    font:Roboto;
+    font-weight:bold;
+    font-size: 24px;
+}
+
+.cycle {
+    width: 24px;
+    height: 24px;
+    border-radius: 999em;
+    border: 2px solid #003164;
+    display: inline-block;
+}
+
+.cycle1 {
+    width: 48px;
+    height: 48px;
+    border-radius: 999em;
+    border: 2px solid #003164;
+    display: inline-block;
+}
